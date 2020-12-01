@@ -114,9 +114,9 @@ function InitDashboard()
         sampleNames.forEach((sampleID) => {
             selector.append("option")
                 .text(sampleID)
-                .property("value", sampleID);
-            
+                .property("value", sampleID); 
         });
+        
         var sampleID = sampleNames[0];
         console.log("Starting Sample: ", sampleID);
 
