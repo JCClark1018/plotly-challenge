@@ -116,9 +116,8 @@ function InitDashboard()
                 .text(sampleID)
                 .property("value", sampleID); 
         });
-        
+
         var sampleID = sampleNames[0];
-        console.log("Starting Sample: ", sampleID);
 
         DrawBars(sampleID);
         DrawBubbles(sampleID);
