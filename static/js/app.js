@@ -1,6 +1,6 @@
 // create function to draw bar graph
 // various code taken from office hours with instructor
-function DrawBargraph(sampleID) {
+function DrawBars(sampleID) {
     console.log(`DrawBars(${sampleID})`);
 
     d3.json("samples.json").then((data) => {
